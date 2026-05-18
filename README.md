@@ -3,8 +3,7 @@
 
 **Cisco Packet Tracer Project**
 
-![Network Topology](topology.png)  
-*(Replace with actual screenshot of your network topology)*
+![Network Topology]([topology.png](https://raw.githubusercontent.com/sarowarhosen01/IPv6-Static-Routing-Implementation-in-Cisco-Packet-Tracer/refs/heads/main/Configurations/Screenshots/Screenshot-topology.jpg))  
 
 ## Project Overview
 
