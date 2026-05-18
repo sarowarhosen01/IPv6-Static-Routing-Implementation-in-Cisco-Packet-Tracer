@@ -106,11 +106,7 @@ R1 ↔ R2 ↔ R3 forms the backbone. LAN-1 is attached to R1 and LAN-2 is attach
 
 **SAROWAR**  
 Network Engineering Student / IT Enthusiast  
-Location: Comilla, Bangladesh  
-Date: May 2026  
-
-**Connect with me:**  
-GitHub | LinkedIn | Portfolio Website *(Add your links)*
+Location: Dhaka, Bangladesh  
 
 ---
 
