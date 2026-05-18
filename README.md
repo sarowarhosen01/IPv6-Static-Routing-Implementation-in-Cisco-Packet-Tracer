@@ -1,6 +1,5 @@
 # IPv6-Static-Routing-Implementation-in-Cisco-Packet-Tracer
 
-# IPv6 Static Routing Implementation
 
 **Cisco Packet Tracer Project**
 
