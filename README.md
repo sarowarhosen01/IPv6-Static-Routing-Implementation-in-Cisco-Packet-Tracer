@@ -58,7 +58,6 @@ R1 ↔ R2 ↔ R3 forms the backbone. LAN-1 is attached to R1 and LAN-2 is attach
 | PC1    | NIC           | 2001:db8:1::10/64         | /64           | 2001:db8:1::1       |
 | PC2    | NIC           | 2001:db8:3::10/64         | /64           | 2001:db8:3::1       |
 
-*(Update this table with exact addresses from your Packet Tracer file if they differ)*
 
 ## Technologies & Protocols Used
 
