@@ -1,0 +1,35 @@
+enable
+configure terminal
+
+hostname R4
+no ip domain-lookup
+
+
+ipv6 unicast-routing
+
+interface se0/0/0
+ ipv6 address 2001:db8:34::2/64
+ no shutdown
+
+interface se0/0/1
+ ipv6 address 2001:db8:41::1/64
+ no shutdown
+
+interface fa0/0
+ ipv6 address 2001:db8:4::1/64
+ no shutdown
+
+exit
+
+! IPv6 Static Routes
+ipv6 route 2001:db8:1::/64 2001:db8:41::2
+ipv6 route 2001:db8:2::/64 2001:db8:41::2
+ipv6 route 2001:db8:3::/64 2001:db8:34::1
+ipv6 route 2001:db8:5::/64 2001:db8:34::1
+
+ipv6 route 2001:db8:12::/64 2001:db8:41::2
+ipv6 route 2001:db8:23::/64 2001:db8:34::1
+ipv6 route 2001:db8:25::/64 2001:db8:34::1
+
+end
+write memory
